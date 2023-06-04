@@ -17,11 +17,11 @@
   <meta name="description" content="panel d'admininistration de resto-place">
   <meta name="author" content="hnk">
   <link href="{{url('img/logo/logo.png')}}" rel="icon">
-  <title>Dashboard</title>
+  <title>Tableau de bord - Rest-place</title>
   <link href="{{url('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
   <link href="{{url('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
   <link href="{{url('css/ruang-admin.min.css')}}" rel="stylesheet">
-</head>
+  </head>
 
 <body id="page-top">
   <div id="wrapper">
