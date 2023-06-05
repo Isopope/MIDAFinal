@@ -43,10 +43,13 @@ Route::get('/detailView/{id}',[HomeController::class,'detailView'])->name('reser
 
 //routes pour modififer et supprimer une photo de local
 Route::get('/localshow',[LocalController::class,'localshow'])->name('localshow');
-Route::get('/localshow/{id}',[LocalController::class,'localdelete'])->name('localdelete');
+Route::get('/localdelete/{id}',[LocalController::class,'localdelete'])->name('localdelete');
 
 //routes pour modifier et supprimer un repas
 Route::get('/fooddelete/{id}',[RepasController::class,'fooddelete'])->name('fooddelete');
+//Route::get('/foodupdate/{id}',[RepasController::class,'foodupdate'])->name('foodupdate');
+Route::put('/foodupdate/{id}',[RepasController::class,'foodupdate'])->name('foodupdate');
+Route::get('/foodupdateview/{id}',[RepasController::class,'foodupdateview'])->name('foodupdateview');
 Route::get('/foodshow',[RepasController::class,'foodshow'])->name('foodshow');
 
 

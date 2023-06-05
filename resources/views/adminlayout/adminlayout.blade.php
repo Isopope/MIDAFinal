@@ -53,11 +53,23 @@
             </a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="/foodshow">
+          <i class="fa fa-fw fa-coffee" aria-hidden="true"></i>
+          <span>Menu des Repas</span>
+          </a>
+      </li>
+        <li class="nav-item">
             <a class="nav-link" href="/local">
             <i class="fa fa-fw fa-map-pin" aria-hidden="true"></i>
             <span>Local</span>
             </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/localshow">
+          <i class="fa fa-fw fa-map-pin" aria-hidden="true"></i>
+          <span>Gallerie du local</span>
+          </a>
+      </li>
         <li class="nav-item">
             <a class="nav-link" href="/reservation">
             <i class="fa fa-fw fa-tasks" aria-hidden="true"></i>
@@ -192,6 +204,13 @@
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
+  <script>
+          function confirmDelete() {
+              if (window.confirm("Êtes-vous sûr de vouloir supprimer ?")) {
+                  document.getElementById("deleteForm").submit();
+          }
+        }
+  </script>
 
   <script src="{{url('vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{url('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
